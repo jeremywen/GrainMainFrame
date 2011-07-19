@@ -105,6 +105,7 @@ public class GrainMainFrame extends JFrame {
 
             @Override
             public void windowClosing(WindowEvent e) {
+				granulator.stopAudio();
                 Utils.putBoundsInPreferences(GrainMainFrame.this.getBounds(), preferences);
                 AllGrainMainFrames.remove(GrainMainFrame.this);
                 GrainMainFrame.this.dispose();

@@ -8,7 +8,7 @@
 
 
         <!-- EXE Stuff -->
-        <property name="launch4j.dir" location="C:/Code/launch4j" />
+        <property name="launch4j.dir" location="../launch4j" />
         <taskdef name="launch4j"
                  classname="net.sf.launch4j.ant.Launch4jTask"
                  classpath="${launch4j.dir}/launch4j.jar
